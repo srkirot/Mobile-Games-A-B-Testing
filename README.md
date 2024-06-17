@@ -10,6 +10,9 @@ This repository contains the analysis of an A/B test conducted on Cookie Cats to
 
 Explore the data trends and insights gained from analyzing player game rounds and retention rates.
 
+![scatter](https://github.com/srkirot/Mobile_Games_AB_Testing/assets/166246544/82f623dd-896e-4ef2-8f89-0c612cb47448)
+*Scatter plot original Data*
+
 ![Box Plot](https://github.com/srkirot/Mobile_Games_AB_Testing/assets/166246544/c588ad5f-6c2b-469f-8797-02fe52401e82)
 *Box plot of Number of Games Played*
 
@@ -17,6 +20,8 @@ Explore the data trends and insights gained from analyzing player game rounds an
 
 *Bar plot of Count of Observations by Version*
 
+![line plot](https://github.com/srkirot/Mobile_Games_AB_Testing/assets/166246544/f79eefd9-e81a-4fe2-84c9-64822e118969)
+*Line Plot by Version*
 ## Analyzing Player Retention
 
 Understand how the change in gate placement influenced player retention after one and seven days.
