@@ -48,6 +48,24 @@ Statistical tests were performed to determine significant differences between ga
   - p-value = 0.0744 (similar variances for retention 1)
   - p-value = 0.0016 (different variances for retention 7)
 
+ 
+## Significance Level (0.05)
+
+The significance level, also known as alpha (α), is used to determine the threshold for rejecting the null hypothesis (H0). A value of 0.05 is commonly chosen because:
+
+- Convention: It is a widely accepted standard.
+- Error Control: An alpha of 0.05 implies a 5% probability of committing a Type I error (rejecting H0 when it is true).
+- Comparability: It allows results to be comparable with other studies.
+  
+## Purpose of Levene's Test
+Levene's test evaluates the equality of variances between groups, which is crucial for many statistical tests, such as the Student's t-test, that assume equal variances.
+
+- Assumption of Homoscedasticity: Ensures that variances between groups are equal.
+- Validity of the Test: Determines whether to use the standard t-test or an adjusted version (such as Welch's t-test).
+- Interpretation of Results:
+  - p-value > 0.05: Do not reject the null hypothesis; variances are similar.
+  - p-value < 0.05: Reject the null hypothesis; variances are significantly different.
+
 ## Conclusion
 
 Your results indicate that:
