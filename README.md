@@ -6,6 +6,14 @@ Cookie Cats is a popular mobile puzzle game by Tactile Entertainment. Players co
 
 This repository contains the analysis of an A/B test conducted on Cookie Cats to evaluate the effect of moving the first gate from level 30 to level 40 on player retention. The analysis includes ETL (Extract, Transform, Load) processes, data visualization, outlier management, and statistical hypothesis testing.
 
+## Cleaning Data with Excessively High Game Rounds Sum
+Data was removed for game instances where the total number of rounds played ("sum_gamerounds") exceeded 10,000. This action was taken to manage outliers that could potentially distort the analysis.
+
+![*Box plot Sum Game Rounds (Clean Data)*](https://github.com/srkirot/Mobile_Games_AB_Testing/assets/166246544/d893871b-7e40-498f-a6a7-b18d0970f703)
+
+*Box plot Sum Game Rounds (Clean Data)*
+
+
 ## Visualizing Data Insights
 
 Explore the data trends and insights gained from analyzing player game rounds and retention rates.
